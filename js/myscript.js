@@ -7,7 +7,8 @@ console.log("nome = " + surnameOut);
 var colorOut = prompt("Inserisci il tuo colore preferito");
 console.log("nome = " + colorOut);
 
-var rans = parseInt(100 * Math.random());
+var rans = Math.floor(100 * Math.random());
+console.log("numero random :" +rans)
 
 document.getElementById("nameOut").innerHTML += nameOut;
 document.getElementById("surnameOut").innerHTML += surnameOut;
